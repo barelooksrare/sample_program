@@ -12,7 +12,7 @@ import chaiAsPromised from "chai-as-promised";
 
 chai.use(chaiAsPromised);
 
-describe("sample_app", () => {
+describe("sample_program", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
